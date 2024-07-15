@@ -10,7 +10,6 @@ echo "スライムに".$rand_num."のダメージを与えた。";
 ?>
 
 <?php
-// if文による条件分岐
 $n = 2;
 if($n == 1){
     echo "好き";
@@ -20,7 +19,7 @@ if($n == 1){
 ?>
 
 <?php
-$place = rand(1,5); // 順位を1〜5の範囲でランダムに作られた数字を$placeに代入
+$place = rand(1,5); 
 echo "placeの中身:".$place."\n";
 if($place == 1){
     echo "金賞";
@@ -32,7 +31,6 @@ if($place == 1){
  // code...
     
 }else{
-    // それ以外だったときの処理
     echo $place."位";
 }
 
@@ -43,7 +41,6 @@ $age = rand(18,22); // 何才かを$ageに18~22をランダムで代入
 echo "ageの中身:".$age." \n";
 if($age < 20 ){
     echo $age."才は飲酒不可";
-    // 条件が成り立ったときの処理
 }else{
     echo $age."才は飲酒可能";
 }
