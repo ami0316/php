@@ -19,7 +19,7 @@ if($n == 1){
 ?>
 
 <?php
-$place = rand(1,5); 
+$place = rand(1,5);
 echo "placeの中身:".$place."\n";
 if($place == 1){
     echo "金賞";
@@ -29,7 +29,7 @@ if($place == 1){
 }elseif($place == 3){
     echo "銅賞";
  // code...
-    
+
 }else{
     echo $place."位";
 }
@@ -76,5 +76,14 @@ if ($dice >= 4 && $dice <= 6) {
     echo "スライムの攻撃をかわした";
 }else{
     echo "スライムから10のダメージを受けた";
-}    
+}
+?>
+
+<?php
+// 平成何年か計算
+$year = date("Y");
+echo "西暦".$year."年は";
+
+$hesei = $year - 1988;
+echo "平成".$hesei."年です";
 ?>
