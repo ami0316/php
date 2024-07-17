@@ -87,3 +87,12 @@ echo "西暦".$year."年は";
 $hesei = $year - 1988;
 echo "平成".$hesei."年です";
 ?>
+
+<?php
+// Here your code !
+$input = trim(fgets(STDIN));
+$input2 = trim(fgets(STDIN));
+echo "標準入力値：".$input."\n";
+echo "標準入力値2：".$input2."\n";
+echo $input+$input2;
+?>
