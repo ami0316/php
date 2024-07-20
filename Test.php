@@ -96,3 +96,8 @@ echo "標準入力値：".$input."\n";
 echo "標準入力値2：".$input2."\n";
 echo $input+$input2;
 ?>
+
+<?php
+echo fgets(STDIN);
+
+?>
