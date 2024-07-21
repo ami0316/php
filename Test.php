@@ -101,3 +101,12 @@ echo $input+$input2;
 echo fgets(STDIN);
 
 ?>
+
+<?php
+// Here your code !
+$name_1 = "勇者２";
+$name_2 = "魔法使い";
+
+$team = array("勇者", "魔法使い", $name_1);
+print_r($name_1);
+?>
