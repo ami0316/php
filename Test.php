@@ -110,3 +110,12 @@ $name_2 = "魔法使い";
 $team = array("勇者", "魔法使い", $name_1);
 print_r($name_1);
 ?>
+
+<?php
+// 関数を作ろう
+say_hello();
+function say_hello() {
+    echo "hello paiza";
+}
+say_hello();
+?>
