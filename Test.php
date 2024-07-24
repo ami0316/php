@@ -132,3 +132,18 @@ class Player {
 $player1 = new Player();
 $player1->walk();
 ?>
+
+<?php
+// クラスを継承する
+class Box {
+    public $myItem;
+    
+    public function __construct() {
+        $this ->myItem = "新しいアイテム";
+    }
+    
+    public function open() {
+        echo "宝箱を開いた。".$this->myItem."を手に入れた。\n";
+    }
+}
+?>
