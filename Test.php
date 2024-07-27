@@ -159,3 +159,12 @@ try {
     echo "end\n";
 }    
 ?>
+
+<?php
+// 例外処理を定義しよう
+
+echo "start\n";
+$date = new DateTime("199x-01-01");
+echo $date->format('Y/m/d') . "\n";
+echo "end\n";
+?>
