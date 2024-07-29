@@ -191,3 +191,25 @@ $hello = new Hello();
 // 続けて、sayHelloメソッドを呼び出す
 
 ?>
+
+<?php
+// 間違い探し
+class Greeting {
+    public $msg;
+    public $target;
+
+    public function __construct() {
+        $this->msg = "hello";
+        $this->target = "paiza";
+    }
+}
+
+class Hello extends Greeting {
+    public function sayHello() {
+        echo $msg." ".$target;
+    }
+}
+
+$player = new Hello();
+$player->sayHello();
+?>
