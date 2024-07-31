@@ -225,3 +225,16 @@ class Greeting {
 
 
 ?>
+
+<?php
+// クラスにメソッドを定義しよう
+class Greeting {
+    // この下に、sayHelloメソッドを記述する
+
+
+
+}
+
+$paiza = new Greeting();
+$paiza->sayHello();
+?>
