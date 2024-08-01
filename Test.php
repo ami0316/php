@@ -238,3 +238,4 @@ class Greeting {
 $paiza = new Greeting();
 $paiza->sayHello();
 ?>
+
