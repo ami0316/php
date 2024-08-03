@@ -258,3 +258,13 @@ class Greeting {
 $paiza = new Greeting();
 $paiza->sayHello();
 ?>
+
+<?php
+// 関数を呼び出してみよう
+
+function say_hello(){
+    echo "hello paiza";
+}
+
+// この下に関数呼び出しを記述する
+?>
