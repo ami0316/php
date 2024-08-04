@@ -268,3 +268,14 @@ function say_hello(){
 
 // この下に関数呼び出しを記述する
 ?>
+
+<?php
+// 関数を作成してみよう
+
+function say_hello(){
+    // この下に関数内の処理を記述する
+
+}
+
+say_hello();
+?>
