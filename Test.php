@@ -279,3 +279,13 @@ function say_hello(){
 
 say_hello();
 ?>
+
+<?php
+// 間違い探し
+
+say_hello();
+
+function sayHello(){
+    echo "hello paiza";
+}
+ ?>
