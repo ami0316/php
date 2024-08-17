@@ -423,3 +423,13 @@ echo $item;
 $item =
 
 ?>
+
+<?php
+$a = trim(fgets(STDIN));
+$b = trim(fgets(STDIN)); 
+$c = trim(fgets(STDIN));
+
+// $a,$b,$cを指定の順番で配列$teamに代入してください
+
+
+?>
