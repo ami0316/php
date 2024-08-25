@@ -498,3 +498,9 @@ $syowa = 0000; // 昭和年の計算式を書く
 echo "昭和".$syowa."年です";
 
 ?>
+
+<?php
+// Here your code !
+echo "paiza php講座":
+
+?>
