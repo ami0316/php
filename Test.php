@@ -504,3 +504,9 @@ echo "昭和".$syowa."年です";
 echo "paiza php講座":
 
 ?>
+
+<?php
+// Here your code !
+echo　"勇者はレベルアップした";
+
+?>
