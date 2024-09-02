@@ -545,3 +545,10 @@ $text2 = "あらわれた";
 echo $text2.$text1;
 
 ?>
+
+<?php
+$name ="霧島京子";
+
+echo $name;  //この行に文字列を足す
+
+?>
