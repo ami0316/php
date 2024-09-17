@@ -666,3 +666,13 @@ if($age < 20){
 }
 
 ?>
+
+<?php
+$omikuji = rand(1,100);
+if(条件式){
+    echo "omikujiの中身は".$omikuji."なので大吉";
+}else{
+    echo "omikujiの中身は".$omikuji."なので大凶";
+}
+
+?>
