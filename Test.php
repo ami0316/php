@@ -714,3 +714,4 @@ $text2 = "あらわれた";
 echo $text2.$text1;
 
 ?>
+
