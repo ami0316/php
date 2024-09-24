@@ -715,3 +715,15 @@ echo $text2.$text1;
 
 ?>
 
+<?php
+$name ="霧島京子";
+
+echo $name;  //この行に文字列を足す
+
+?>
+
+<?php
+$damage = 12;
+echo "スライムの攻撃。.$damage."のダメージを受けた";
+
+?>
