@@ -764,3 +764,9 @@ $a =
 
 echo "賞金を分け合うと一人当たり".$a."円になります。";
 ?>
+
+<?php
+// Here your code !
+echo "paiza php講座":
+
+?>
