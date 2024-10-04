@@ -770,3 +770,9 @@ echo "賞金を分け合うと一人当たり".$a."円になります。";
 echo "paiza php講座":
 
 ?>
+
+<?php
+// Here your code !
+echo　"勇者はレベルアップした";
+
+?>
