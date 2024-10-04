@@ -776,3 +776,7 @@ echo "paiza php講座":
 echo　"勇者はレベルアップした";
 
 ?>
+
+<?php
+echo　"paizaでプログラミングをマスター”:
+?>
